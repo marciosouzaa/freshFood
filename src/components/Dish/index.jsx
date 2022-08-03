@@ -1,4 +1,4 @@
-import { MdFavoriteBorder } from 'react-icons/md';
+import { FiHeart } from 'react-icons/fi';
 import { FiEdit, FiEye } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 import { Container } from './styles';
@@ -26,12 +26,12 @@ export function Dish({ data }) {
         {user.is_admin === 1 && (
           <FiEdit size={30} onClick={() => handleEditDish(data.id)} />
         )}
-        <MdFavoriteBorder size={30} />
+        <FiHeart size={30} />
       </div>
       <img src={avatarURL} alt="imagem" />
 
       <button type="button" onClick={() => handleDetails(data.id)}>
-        <h3>{data.title} <FiEye></FiEye> </h3>
+        <h3>{data.title} <FiEye/> </h3>
       </button>
       <p>{data.description}</p>
       <strong>R$ {data.price}</strong>
