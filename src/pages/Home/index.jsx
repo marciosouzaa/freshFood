@@ -54,7 +54,7 @@ export function Home() {
                 {dishes.length > 0 && (
                     <Slider>
                         {dishes.map(item => (
-                            <Dish data={item} />
+                            <Dish key={item.id} data={item} />
                         ))}
                     </Slider>
                 )}
