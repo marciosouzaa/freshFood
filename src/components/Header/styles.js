@@ -7,11 +7,7 @@ export const Container = styled.header`
   
     height: 10rem;
 
-
-
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-
-  
     
     h1 {
         font-size: 2.5rem;
