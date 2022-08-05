@@ -7,7 +7,7 @@ import { Header } from '../../components/Header';
 import Ingredient from '../../assets/ingredient.png';
 import { Container, Content } from './styles';
 import { Button } from '../../components/Button';
-import { api } from '../../services/api';
+import { api } from '../../../Services/api';
 
 export function Details() {
   const [data, setData] = useState(null);

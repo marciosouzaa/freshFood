@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Container } from './styles';
 
 import { Button } from '../Button';
-import { api } from '../../services/api';
+import { api } from '../../../Services/api';
 import { useAuth } from '../../hooks/auth';
 
 export function Dish({ data }) {

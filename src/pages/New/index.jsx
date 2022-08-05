@@ -9,7 +9,7 @@ import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { Textarea } from '../../components/TextArea';
 import { DishIngredient } from '../../components/DishIngredient';
-import { api } from '../../services/api';
+import { api } from '../../../Services/api';
 
 export function New() {
   const [title, setTitle] = useState('');

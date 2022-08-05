@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import { api } from '../../services/api';
+import { api } from '../../../Services/api';
 import { Container, Content } from "./styles";
 import { Search } from "../../components/Header/styles";
 import { FiSearch } from 'react-icons/fi';
