@@ -6,6 +6,9 @@ export const Container = styled.footer`
   display: flex;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+  img{
+    opacity: 0.5;
+  }
 
   > div {
     max-width: 113rem;
