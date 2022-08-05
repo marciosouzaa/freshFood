@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
-import polygon from '../../assets/polygon1.svg'
+
 
 import { useAuth } from '../../hooks/auth';
 
@@ -24,11 +24,7 @@ export function SignIn() {
 
   return(
   <Container>
-    <Logo>
-      <img src={polygon} />
-      
-      <h1>Fresh Food</h1>
-    </Logo>
+    <Logo/>
     <Form>
       
       <h2>Faça login</h2>

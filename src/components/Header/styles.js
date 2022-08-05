@@ -63,25 +63,6 @@ export const Search = styled.div`
     width: 50%;
 `;
 
-
-
-
-
-export const Logo = styled.div`
-
-  display: flex;
-  align-items: center;
-
-  
-
-
-  >img{
-    width: 3rem;
-    height: 3rem;
-    margin-right: 1rem;
-  }
- 
-`
 export const Nav = styled.div`
   white-space: nowrap;
   position: absolute;

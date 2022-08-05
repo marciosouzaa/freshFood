@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
 import { Link, useNavigate } from 'react-router-dom';
-import polygon from '../../assets/polygon1.svg'
 
-import { api } from '../../services/api';
+
+import { api } from '../../../Services/api';
 
 import {Input} from '../../components/Input'
 import {Button} from '../../components/Button'
@@ -38,11 +38,7 @@ export function SignUp() {
 
   return(
   <Container>
-    <Logo>
-      <img src={polygon} />
-      
-      <h1>Fresh Food</h1>
-    </Logo>
+    <Logo/>
     <Form>
       
       <h2>Faça login</h2>

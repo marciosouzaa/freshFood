@@ -1,8 +1,8 @@
 import { useAuth } from '../../hooks/auth';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import polygon from '../../assets/polygon1.svg'
-import { Container, Logo, Nav } from "./styles";
+import logo from '../../assets/logo.svg'
+import { Container, Nav } from "./styles";
 import { Button } from "../Button";
 import {FiLogOut, FiMenu} from 'react-icons/fi'
 
@@ -22,11 +22,8 @@ export function Header({ children }) {
     return (
         <Container>
             <div className="head">
-                <Logo>
-                    <img src={polygon} />
-      
-                    <h1>Fresh Food</h1>
-                </Logo>
+                
+                <img src={logo} />
                 <Nav  isActive={openLinks}>
                 {user.is_admin === 0 ? (
                     <>

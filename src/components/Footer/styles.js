@@ -26,15 +26,3 @@ export const Container = styled.footer`
   }
 `;
 
-export const Logo = styled.footer`
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
-  font-size: 1.4rem;
-
-  img{
-    width: 3.5rem;
-    height: 3.5rem;
-  }
-`

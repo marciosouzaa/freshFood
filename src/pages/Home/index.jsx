@@ -5,7 +5,7 @@ import { Container, Content } from "./styles";
 import { Search } from "../../components/Header/styles";
 import { FiSearch } from 'react-icons/fi';
 
-import PngEgg from '../../assets/pngegg 1.svg'
+import Outdoor from '../../assets/outdoor.svg'
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { Dish } from "../../components/Dish";
@@ -43,7 +43,7 @@ export function Home() {
                 </Search>
             </Header>
             <Content>
-                <img src={PngEgg} alt="Imagem com diferentes tipos de sabores" />
+                <img src={Outdoor} alt="Imagem com diferentes tipos de sabores" />
                 <div>
                     <h1>Sabores inigualáveis</h1>
                     <p>Sinta o cuidado do preparo com ingredientes selecionados</p>

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import backgroundImg from '../../assets/background.svg';
 
 export const Container = styled.div`
   display: flex;
@@ -70,17 +71,14 @@ background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 `
 
 export const Logo = styled.div`
+  width: 32.4rem;
+  height: 4.8rem;
+
   margin-top: 14rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-  background-size: cover;
 
-  >img{
-    width: 45px;
-    height: 45px;
-  }
- 
+  background: url(${backgroundImg}) no-repeat center center;
+  background-size: cover;
 `
