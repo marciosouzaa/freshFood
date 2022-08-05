@@ -65,12 +65,13 @@ $ npm run dev
 
 ## 🛠 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto(Front e Back) foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
 - JavaScript
 - React.js
+- Node.js
 
 ---
 
